@@ -10,7 +10,7 @@ func main() {
 	yearOfBirth := 2007
 	numberOfSiblings := 1
 	heightInMeters := 1.73
-	zodiacSign := 'K'
+	zodiacSign := '\u264B'
 
 	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)
 	fmt.Printf("Geburtsdatum: %d.%d.%d\n", dayOfBirth, monthOfBirth, yearOfBirth)
