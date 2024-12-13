@@ -14,13 +14,10 @@ func main() {
 	fmt.Println("Modul 117:", modules[117])
 	fmt.Println("Modul 346:", modules[346])
 
-	// Entfernen eines Moduls
 	delete(modules, 117)
 
-	// Hinzufügen eines neuen Moduls
 	modules[210] = "Webentwicklung"
 
-	// Ersetzen eines Moduls
 	modules[346] = "DevOps-Konzepte"
 
 	fmt.Println(modules)
